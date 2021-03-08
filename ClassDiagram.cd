@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Backgroung" Collapsed="true">
+    <Position X="7.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Backgroung.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLayer" Collapsed="true">
+    <Position X="12.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>GameLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoLayer" Collapsed="true">
+    <Position X="14.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>InfoLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellVO">
+    <Position X="12.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Layer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Layer" Collapsed="true">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAMAAAAAAAAAAAAAAQAhBAAAAAAAAAAAAAEAAQAAA=</HashCode>
+      <FileName>Layer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MsgLayer" Collapsed="true">
+    <Position X="10" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQQAAAQAIA=</HashCode>
+      <FileName>MsgLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseController">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgwAAKAAAAIAAAIAAAAAAAAIAAAAAAACASAA=</HashCode>
+      <FileName>BaseController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene">
+    <Position X="10.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAIAAAAAAAACAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuController">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAgAAAAAAAIABAAAAACAAAA=</HashCode>
+      <FileName>MenuController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuLayer" Collapsed="true">
+    <Position X="16.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAACBgABAAAAAAZAAAAAAAQAAA=</HashCode>
+      <FileName>MenuLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game1Controller">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgQAAAQAAKADAEKBAAUBAAIAAAQbABwAADFAEBAA=</HashCode>
+      <FileName>Game1Controller.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DataVO">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DataVO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameData">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAUAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameData.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dataVO" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Angle" Collapsed="true">
+    <Position X="1.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Angle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AngleD" Collapsed="true">
+    <Position X="6.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>AngleD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseFigure" Collapsed="true">
+    <Position X="8.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAEAAAAAQAAAIAAAAAAAEAAEAAAAACAA=</HashCode>
+      <FileName>BaseFigure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sqeare" Collapsed="true">
+    <Position X="13" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Sqeare.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Straight" Collapsed="true">
+    <Position X="15.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Straight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Triangle" Collapsed="true">
+    <Position X="4" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Triangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoro" Collapsed="true">
+    <Position X="8.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zoro.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZoroD" Collapsed="true">
+    <Position X="10.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZoroD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameConfig">
+    <Position X="14.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAgAAAAAQAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>GameConfig.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainController">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game1Data">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCQAAAAgAAAQIAAAAAEIAAAAAAABAgAAgAAAAAA=</HashCode>
+      <FileName>Game1Data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Direction">
+    <Position X="16.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Game1Controller.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

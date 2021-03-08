@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Layers">
+      <UniqueIdentifier>{a4766bf5-807e-484b-a0d6-bd1d4ba4dd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Modules">
+      <UniqueIdentifier>{fd555562-de06-42eb-a7a1-19ed15af2ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Modules\Menu">
+      <UniqueIdentifier>{8c94b892-9bbb-42df-9ce0-a80a0b0b94e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Modules\Game1">
+      <UniqueIdentifier>{2010945a-9d6b-42d2-a398-e04183b63361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Modules\Game2">
+      <UniqueIdentifier>{b4da10b1-ec10-4947-bb25-d640de07a353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Modules\Game1\Figures">
+      <UniqueIdentifier>{94ce4f2b-f925-4265-b74e-d3ecb1dc71de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tetris.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Angle.cpp">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleD.cpp">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="Zoro.cpp">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="Straight.cpp">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqeare.cpp">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseFigure.cpp">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="Backgroung.cpp">
+      <Filter>Исходные файлы\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLayer.cpp">
+      <Filter>Исходные файлы\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Исходные файлы\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoroD.cpp">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgLayer.cpp">
+      <Filter>Исходные файлы\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game1Controller.cpp">
+      <Filter>Исходные файлы\Modules\Game1</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuController.cpp">
+      <Filter>Исходные файлы\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainController.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseController.cpp">
+      <Filter>Исходные файлы\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLayer.cpp">
+      <Filter>Исходные файлы\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Исходные файлы\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Game1Data.cpp">
+      <Filter>Исходные файлы\Modules\Game1</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoLayer.cpp">
+      <Filter>Исходные файлы\Modules\Game1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameConfig.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Backgroung.h">
+      <Filter>Исходные файлы\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer.h">
+      <Filter>Исходные файлы\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Исходные файлы\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Angle.h">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleD.h">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseFigure.h">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqeare.h">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="Straight.h">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="Zoro.h">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoroD.h">
+      <Filter>Исходные файлы\Modules\Game1\Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgLayer.h">
+      <Filter>Исходные файлы\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game1Controller.h">
+      <Filter>Исходные файлы\Modules\Game1</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuController.h">
+      <Filter>Исходные файлы\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainController.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseController.h">
+      <Filter>Исходные файлы\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuLayer.h">
+      <Filter>Исходные файлы\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Исходные файлы\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Game1Data.h">
+      <Filter>Исходные файлы\Modules\Game1</Filter>
+    </ClInclude>
+    <ClInclude Include="DataVO.h">
+      <Filter>Исходные файлы\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Исходные файлы\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoLayer.h">
+      <Filter>Исходные файлы\Modules\Game1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
