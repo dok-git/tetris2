@@ -1,6 +1,8 @@
 #include "MainController.h"
 #include "MenuController.h"
 #include "Game1Controller.h"
+#include "Game3Controller.h"
+#include "Game2Controller.h"
 
 void MainController::start()
 {
@@ -23,9 +25,15 @@ void MainController::startGame(int gameId) {
 	}
 
 	if (gameId == 2) {
-		//Game2Controller game;
-		//game.show();
-		//showMenu();
+		Game2Controller game;
+		game.show();
+		showMenu();
+	}
+
+	if (gameId == 3) {
+		Game3Controller game;
+		game.show();
+		showMenu();
 	}
 
 }

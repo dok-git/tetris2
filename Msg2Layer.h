@@ -1,16 +1,13 @@
 #pragma once
 #include "Layer.h"
-#include <string>
-
-class MsgLayer :
+class Msg2Layer :
     public Layer
 {
 public:
     std::vector<CellVO> render() override;
     void showStartMsg();
     void hideMsg();
-    void gameOverMsg();
-    //void gameOver();
+    //void gameOverMsg();
 private:
     std::string msg = "";
     int lit = 0;

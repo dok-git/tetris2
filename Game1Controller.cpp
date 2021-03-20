@@ -1,7 +1,7 @@
 #include "Game1Controller.h"
 #include <future>
 #include <thread>
-
+#include <conio.h>
 
 void Game1Controller::onPressKey(int iKey)
 {
@@ -42,7 +42,20 @@ void Game1Controller::show()
 	working = true;
 	auto asyncDefault = std::async(std::launch::async, &Game1Controller::drop, this);
 	keyboardReader();
+	msgLayer.gameOverMsg();
+	gameOver();
+}
 
+void Game1Controller::gameOver() {
+	bool exit = false;
+	
+	while (!exit)
+	{
+		if (_kbhit())
+		{
+			exit = true;
+		}
+	}
 }
 
 void Game1Controller::drop() {

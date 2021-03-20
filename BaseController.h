@@ -12,6 +12,7 @@ public:
 	virtual void onDown() {};
 	virtual void onEnter() {};
 	virtual void onKeyX() {};
+	virtual void onSpace() {};
 protected:
 	bool working = false;
 	Scene scene;

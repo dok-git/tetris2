@@ -1,0 +1,12 @@
+#pragma once
+#include "Layer.h"
+#include "Game2Data.h"
+
+class Game2InfoLayer: public Layer
+{ 
+public:
+    //COORD getLayerPos() override;
+    std::vector<CellVO> render() override;
+    Game2Data* gameData{};
+};
+

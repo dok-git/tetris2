@@ -6,6 +6,7 @@
 #define KEY_ARROW_DOWN 80
 #define KEY_ARROW_LEFT 75
 #define KEY_ENTER 13
+#define KEY_SPACE 32
 
 void BaseController::keyboardReader() {
 
@@ -34,6 +35,9 @@ void BaseController::keyboardReader() {
 				break;
 			case KEY_ENTER:
 				onEnter();
+				break;
+			case KEY_SPACE:
+				onSpace();
 				break;
 			case 120: //клавиша x
 			case 88: //клавиша X

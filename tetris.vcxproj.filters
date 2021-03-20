@@ -31,6 +31,15 @@
     <Filter Include="Исходные файлы\Modules\Game1\Figures">
       <UniqueIdentifier>{94ce4f2b-f925-4265-b74e-d3ecb1dc71de}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Modules\Game3">
+      <UniqueIdentifier>{954f02dd-87ab-4e83-9e18-3f8706f81d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Modules\Game3\Plane">
+      <UniqueIdentifier>{e5942eee-86e1-4e2b-9946-a457c1e129fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Modules\Game2\Snake">
+      <UniqueIdentifier>{525b9ca7-1c8f-42bf-b80b-1d6483df603c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tetris.cpp">
@@ -95,6 +104,42 @@
     </ClCompile>
     <ClCompile Include="InfoLayer.cpp">
       <Filter>Исходные файлы\Modules\Game1</Filter>
+    </ClCompile>
+    <ClCompile Include="Game3Controller.cpp">
+      <Filter>Исходные файлы\Modules\Game3</Filter>
+    </ClCompile>
+    <ClCompile Include="Game3Data.cpp">
+      <Filter>Исходные файлы\Modules\Game3</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Исходные файлы\Modules\Game3\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="Game3GameLayer.cpp">
+      <Filter>Исходные файлы\Modules\Game3</Filter>
+    </ClCompile>
+    <ClCompile Include="Msg3Layer.cpp">
+      <Filter>Исходные файлы\Modules\Game3</Filter>
+    </ClCompile>
+    <ClCompile Include="Game2Controller.cpp">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClCompile>
+    <ClCompile Include="Game2InfoLayer.cpp">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClCompile>
+    <ClCompile Include="Game2Data.cpp">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClCompile>
+    <ClCompile Include="Game2Background.cpp">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClCompile>
+    <ClCompile Include="Game2Layer.cpp">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Исходные файлы\Modules\Game2\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Msg2Layer.cpp">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +211,42 @@
     </ClInclude>
     <ClInclude Include="InfoLayer.h">
       <Filter>Исходные файлы\Modules\Game1</Filter>
+    </ClInclude>
+    <ClInclude Include="Game3Controller.h">
+      <Filter>Исходные файлы\Modules\Game3</Filter>
+    </ClInclude>
+    <ClInclude Include="Game3Data.h">
+      <Filter>Исходные файлы\Modules\Game3</Filter>
+    </ClInclude>
+    <ClInclude Include="Game3GameLayer.h">
+      <Filter>Исходные файлы\Modules\Game3</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg3Layer.h">
+      <Filter>Исходные файлы\Modules\Game3</Filter>
+    </ClInclude>
+    <ClInclude Include="Game2Controller.h">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClInclude>
+    <ClInclude Include="Game2InfoLayer.h">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClInclude>
+    <ClInclude Include="Game2Data.h">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClInclude>
+    <ClInclude Include="Game2Background.h">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClInclude>
+    <ClInclude Include="Game2Layer.h">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Исходные файлы\Modules\Game2\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Исходные файлы\Modules\Game3\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg2Layer.h">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

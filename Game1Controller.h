@@ -16,6 +16,7 @@ class Game1Controller : public BaseController
 
 public:
 	void show();
+	void gameOver();
 
 private:
 
