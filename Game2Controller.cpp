@@ -81,7 +81,7 @@ void Game2Controller::appleSpawn() {
 	int a,b;
 	a = rand() % 30 + 1;
 	b = rand() % 20 + 1;
-	appleDataVO.data[1][1] = 2;
+	appleDataVO.data[a][b] = 2;
 }
 
 void Game2Controller::onLeft() {
@@ -113,7 +113,7 @@ void Game2Controller::onDown() {
 }
 
 
-bool Game2Controller::checkRightCol(DataVO& staticDataVO) {
+bool Game2Controller::checkRightCol(Data2VO& staticDataVO) {
 	for (int j = 0; j < GameConfig::GAME2_HEIGHT; j++) {
 		if (staticDataVO.data[GameConfig::GAME2_WIDTH - 1][j] == 1) {
 			return true;
@@ -122,7 +122,7 @@ bool Game2Controller::checkRightCol(DataVO& staticDataVO) {
 	return false;
 }
 
-bool Game2Controller::checkLeftCol(DataVO& staticDataVO) {
+bool Game2Controller::checkLeftCol(Data2VO& staticDataVO) {
 	for (int j = 0; j < GameConfig::GAME2_HEIGHT; j++) {
 		if (staticDataVO.data[0][j] == 1) {
 			return true;
@@ -131,16 +131,16 @@ bool Game2Controller::checkLeftCol(DataVO& staticDataVO) {
 	return false;
 }
 
-bool Game2Controller::checkUpCol(DataVO& staticDataVO) {
+bool Game2Controller::checkUpCol(Data2VO& staticDataVO) {
 	for (int i = 0; i < GameConfig::GAME2_WIDTH; i++) {
-		if (staticDataVO.data[i][2] == 1) {
+		if (staticDataVO.data[i][0] == 1) {
 			return true;
 		}
 	}
 	return false;
 }
 
-bool Game2Controller::checkDownCol(DataVO& staticDataVO) {
+bool Game2Controller::checkDownCol(Data2VO& staticDataVO) {
 	for (int i = 0; i < GameConfig::GAME2_WIDTH; i++) {
 		if (staticDataVO.data[i][GameConfig::GAME2_HEIGHT - 1] == 1) {
 			return true;

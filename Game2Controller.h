@@ -7,6 +7,7 @@
 #include "Game2Layer.h"
 #include "Snake.h"
 #include "Msg2Layer.h"
+#include "Data2VO.h"
 
 class Game2Controller : public BaseController
 {
@@ -33,17 +34,17 @@ public:
 	void onRight();
 	void onUp();
 
-	bool checkRightCol(DataVO& staticDataVO);
-	bool checkLeftCol(DataVO& staticDataVO);
-	bool checkUpCol(DataVO& staticDataVO);
-	bool checkDownCol(DataVO& staticDataVO);
+	bool checkRightCol(Data2VO& staticDataVO);
+	bool checkLeftCol(Data2VO& staticDataVO);
+	bool checkUpCol(Data2VO& staticDataVO);
+	bool checkDownCol(Data2VO& staticDataVO);
 
 	bool isStart = false;
 
 private:
 
-	DataVO snakeDataVO;
-	DataVO appleDataVO;
+	Data2VO snakeDataVO;
+	Data2VO appleDataVO;
 
 	Snake snake;
 	Game2Data gameData;

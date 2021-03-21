@@ -144,6 +144,7 @@
     <ClCompile Include="Backgroung.cpp" />
     <ClCompile Include="BaseController.cpp" />
     <ClCompile Include="BaseFigure.cpp" />
+    <ClCompile Include="Data2VO.cpp" />
     <ClCompile Include="Game1Controller.cpp" />
     <ClCompile Include="Game2Background.cpp" />
     <ClCompile Include="Game2Controller.cpp" />
@@ -179,6 +180,7 @@
     <ClInclude Include="Backgroung.h" />
     <ClInclude Include="BaseController.h" />
     <ClInclude Include="BaseFigure.h" />
+    <ClInclude Include="Data2VO.h" />
     <ClInclude Include="DataVO.h" />
     <ClInclude Include="Game2Background.h" />
     <ClInclude Include="Game2Controller.h" />

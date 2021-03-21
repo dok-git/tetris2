@@ -141,6 +141,9 @@
     <ClCompile Include="Msg2Layer.cpp">
       <Filter>Исходные файлы\Modules\Game2</Filter>
     </ClCompile>
+    <ClCompile Include="Data2VO.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameConfig.h">
@@ -246,6 +249,9 @@
       <Filter>Исходные файлы\Modules\Game3\Plane</Filter>
     </ClInclude>
     <ClInclude Include="Msg2Layer.h">
+      <Filter>Исходные файлы\Modules\Game2</Filter>
+    </ClInclude>
+    <ClInclude Include="Data2VO.h">
       <Filter>Исходные файлы\Modules\Game2</Filter>
     </ClInclude>
   </ItemGroup>
