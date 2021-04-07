@@ -19,6 +19,9 @@ std::vector <CellVO> Game2Layer::render()
 			if (gameData->dataVO.data[i][j] == 2) {
 				cells.push_back(getCellVO(L'\u00A4', FOREGROUND_RED | BACKGROUND_BLUE | BACKGROUND_GREEN | BACKGROUND_RED, i, j));
 			}
+			if (gameData->dataVO.data[i][j] == 3) {
+				cells.push_back(getCellVO(L'\u00A4', FOREGROUND_BLUE | BACKGROUND_BLUE | BACKGROUND_GREEN | BACKGROUND_RED, i, j));
+			}
 		}
 	}
 	return cells;

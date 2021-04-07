@@ -7,9 +7,10 @@ public:
     std::vector<CellVO> render() override;
     void showStartMsg();
     void hideMsg();
-    //void gameOverMsg();
+    void gameOverMsg();
 private:
     std::string msg = "";
     int lit = 0;
+    	
 };
 

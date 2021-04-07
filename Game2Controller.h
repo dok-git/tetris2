@@ -9,15 +9,26 @@
 #include "Msg2Layer.h"
 #include "Data2VO.h"
 
+enum class DirectionMove {
+	UP,
+	DOWN,
+	LEFT,
+	RIGHT
+};
+
 class Game2Controller : public BaseController
 {
 public:
+	DirectionMove directionMove;
+	DirectionMove newDirectionMove;
+
 	void onPressKey(int iKey);
 	void show();
 
 	void startGame();
 	void gameOver();
 
+	void updateSnake();
 	void update();
 	void updateGameData();
 
@@ -30,15 +41,27 @@ public:
 	void appleSpawn();
 
 	void onDown();
+	void onMove(DirectionMove direction);
+	void onMoveSnake();
+	DirectionMove reversDirection(DirectionMove direction);
 	void onLeft();
 	void onRight();
 	void onUp();
 
+	/*
 	bool checkRightCol(Data2VO& staticDataVO);
 	bool checkLeftCol(Data2VO& staticDataVO);
 	bool checkUpCol(Data2VO& staticDataVO);
 	bool checkDownCol(Data2VO& staticDataVO);
+	bool checSnakeDCol();
+	bool checSnakeLCol();
+	bool checSnakeRCol();
+	bool checSnakeUCol();
+	*/
 
+	void checkAppleAdd();
+
+	bool deltail = true;
 	bool isStart = false;
 
 private:
@@ -54,4 +77,3 @@ private:
 	Msg2Layer msg2Layer;
 	Game2InfoLayer game2InfoLayer;
 };
-
